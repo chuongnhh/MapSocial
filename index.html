@@ -17,7 +17,7 @@
         $(function () {
             //var socket = io('http://sharemyplace.azurewebsites.net/');
             var socket = io();
-            socket.on('emit_message', function (msg) {
+            socket.on('onlatlng', function (msg) {
                 $('#messages').append($('<li>').html(msg['id']+'<br>lat: '+msg['lat']+', lng: '+msg['lng']+'<br>'+msg['address']));
                 $(document).scrollTop($(document).height());
             });
