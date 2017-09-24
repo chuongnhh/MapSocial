@@ -1,0 +1,27 @@
+{
+  "name": "map-social",
+  "version": "1.0.0",
+  "description": "map social",
+  "main": "index.js",
+  "scripts": {
+    "test": "chuongnh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuongnhh/MapSocial.git"
+  },
+  "keywords": [
+    "map",
+    "social"
+  ],
+  "author": "chuongnh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chuongnhh/MapSocial/issues"
+  },
+  "homepage": "https://github.com/chuongnhh/MapSocial#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "socket.io": "^2.0.3"
+  }
+}
